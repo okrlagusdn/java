@@ -171,3 +171,41 @@ public class CalendarTest3 {
 33일 차이
 ```
 
+
+
+
+
+------
+
+### DAY2
+
+#### 문자열
+
+| 문자열 메소드 종류                                           | 설명                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| char charAt(int index)                                       | 지정된 인덱스의 한 문자를 반환                               |
+| int compareTo(String antherString)                           | 두 문자열의 사전적 우선 순위 비교                            |
+| int compareToIgnoreCase(String str)                          | 대소문자를 구분하지 않는 사전적 비교                         |
+| boolean contains(CharSequence s)                             | 문자열을 포함하고 있는지 확인                                |
+| boolean endsWith(String suffix)                              | 문자열의 끝이 인자로 주어진 문자열인지 확인                  |
+| boolean equals(Object anObject)                              | 같은 내용의 문자열인지 비교                                  |
+| boolean equalsIgnoreCase(String anotherString)               | 대소문자를 구분하지 않고 비교                                |
+| byte[] getBytes()                                            | 플랫폼 기본 캐릭터셋으로 인코딩된 바이트 배열을 링크한다.    |
+| byte[] getBytes(String charsetName)                          | 인자로 주어진 캐릭터 셋으로 인코딩된 바이트 배열을 반환      |
+| int indexOf(char ch)                                         | 인자로 주어진 문자가 있는 위치를 반환, 없으면 음수를 반환    |
+| boolean isEmpty()                                            | 빈문자열인지 확인                                            |
+| int lastIndexOf(char ch)                                     | 인자로 주어진 문자가 마지막으로 나타난 위치를 반환, 없으면 음수를 반환 |
+| int length()                                                 | 문자열의 길이를 반환                                         |
+| boolean matches(String regex)                                | 인자로 주어진 정규식에 매치되는지 확인                       |
+| String replace(char oldChar, char newChar)                   | 문자열에서 첫번째 인자의 문자를 두번째 인자의 문자로 바꿈    |
+| String replace(CharSequence target, CharSequence replacement) | 문자열을 바꿈                                                |
+| String replaceAll(String regex, String replacement)          | 정규식을 사용하여 매치되는 문자열을 바꿈.                    |
+| String[] split(String regex)                                 | 정규식에 매치되는 부분을 구분자로 문자열을 분할              |
+| String[] split(String regex, int limit)                      | 문자열 분할시 두번째 인자로 마지막 빈 요소 처리 및 분할할 개수를 지정 |
+| boolean startsWith(String prefix)                            | 인자로 주어진 문자열로 시작하는지 확인                       |
+| String substring(int beginIndex)                             | 문자열에서 인자로 주어진 인덱스 이후의 문자열을 추출         |
+| String substring(int beginIndex, int endIndex)               | 인자로 주어진 인덱스 사이의 문자열을 반환                    |
+| String toLowerCase()                                         | 소문자로 변경                                                |
+| String toUpperCase()                                         | 대문자로 변경                                                |
+| String trim()                                                | 문자열 앞, 뒤의 whitespace를 제거                            |
+
